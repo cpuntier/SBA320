@@ -22,8 +22,13 @@ export default function PokemonEntry(){
 
     return (
         <>
-        <h2>You are looking at {params.name}</h2>
-
+        {data ? <>
+        <h1>{params.name}</h1>
+        <img src = {data.sprites.front_default}></img>
+        
+        
+        </>:<h2>LOADING!!!</h2>}
+        
         </>
     )
 }
