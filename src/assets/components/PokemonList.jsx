@@ -19,7 +19,6 @@ export default function PokemonList(props) {
                             }
                         }
                     })}
-                    {/* </select> */}
                 </ul>
 
             </div>

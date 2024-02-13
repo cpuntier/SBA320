@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom"
 import axios from "axios";
+import "../styles/PokemonEntry.css"
 
 export default function PokemonEntry(){
+
     const params = useParams();
     const [data,setData] = useState(null);
     useEffect(() => {
@@ -24,7 +26,11 @@ export default function PokemonEntry(){
         <>
         {data ? <>
         <h1>{params.name}</h1>
-        <img src = {data.sprites.front_default}></img>
+        <div className="PokeContainer">
+          <div>
+            <img src={data.sprites.other["official-artwork"].front_default}/>
+          </div>
+        </div>
         
         
         </>:<h2>LOADING!!!</h2>}
