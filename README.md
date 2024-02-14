@@ -1,8 +1,15 @@
-# React + Vite
+### React Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Sample Pokedex
 
-Currently, two official plugins are available:
+####Link to live app https://fluffy-starburst-490ccf.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This application allows the user to view data on Pokemon. Right now currently only pokemon's 1-493.
+
+An api call is made to the PokeAPI in order to get the data that is used. 
+
+There is a search bar that makes appropriate search on the pokemon obtained in the api call.
+
+There is also a random pokemon button if you do not want to search.
+
+In the future I think a moving banner at the bottom of the page would be nice to try to implement. As well as adding some more styling to make it look more visually appealing.

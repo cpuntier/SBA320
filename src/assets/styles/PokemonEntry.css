@@ -30,10 +30,9 @@ tr{
     display: flex;
     justify-content: space-evenly;
     font-size: 15pt;
-    border: solid red 1px;
 }
 
 tr td{
-    border: solid green 1px;
+    border: solid black 1px;
 }
 

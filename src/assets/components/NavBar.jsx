@@ -6,7 +6,6 @@ import { useEffect, useState } from "react";
 
 export default function NavBar() {
     const path = useLocation().pathname;
-    // const [newLink, setNewLink] = useState("/");
     const [newLink,setNewLink] = useState("/")
     console.log("You are here", path)
 
