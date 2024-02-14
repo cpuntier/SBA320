@@ -1,6 +1,8 @@
 .PokeContainer{
+    z-index: 0;
     border: solid black 1px;
     display: flex;
+    position: absolute;
 }
 
 

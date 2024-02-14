@@ -1,7 +1,6 @@
 export default function StatRow({ stat }) {
     let stat_width = (stat.base_stat / 230) * 60;
     stat_width = stat_width + "vw";
-    console.log((stat.base_stat/230) * 255/100);
     
 
     // console.log(barColor)
