@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 
+
 export default function PokemonListItem({ name, index }) {
     const imgSrc = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/" + index + ".png";
     return (

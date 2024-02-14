@@ -1,0 +1,37 @@
+.PokeContainer{
+    border: solid black 1px;
+    display: flex;
+}
+
+
+.art{
+    border: solid red 1px;
+    width: 40vw;
+}
+
+.dataContainer{
+    width: 60vw;
+}
+.Data{
+    border: solid blue 1px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.Data div{
+    border: solid black 1px;
+    width: 30vw;
+}
+
+tr{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 15pt;
+    border: solid red 1px;
+}
+
+tr td{
+    border: solid green 1px;
+}
+
